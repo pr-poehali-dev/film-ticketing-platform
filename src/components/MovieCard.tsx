@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 
 interface MovieCardProps {
   movie: Movie;
+  onDelete: (movieId: string) => void;
 }
 
-const MovieCard = ({ movie }: MovieCardProps) => {
+const MovieCard = ({ movie, onDelete }: MovieCardProps) => {
   return (
     <div className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow group">
       <div className="relative overflow-hidden">
@@ -28,6 +29,12 @@ const MovieCard = ({ movie }: MovieCardProps) => {
           />
           <span className="text-sm font-medium">{movie.rating}</span>
         </div>
+        <button
+          onClick={() => onDelete(movie.id)}
+          className="absolute top-4 left-4 bg-red-500 bg-opacity-80 hover:bg-opacity-100 text-white rounded-full p-2 transition-all duration-200 hover:scale-110"
+        >
+          <Icon name="Trash2" size={16} />
+        </button>
       </div>
 
       <div className="p-4">

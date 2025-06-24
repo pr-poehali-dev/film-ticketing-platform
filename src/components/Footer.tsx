@@ -46,11 +46,11 @@ const Footer = () => {
             <div className="space-y-2 text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Icon name="MapPin" size={16} />
-                <span>ул. Кинематографистов, 15</span>
+                <span>г. Гулькевичи, ул. Возрождение, 4, кв. 27</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Phone" size={16} />
-                <span>+7 (495) 123-45-67</span>
+                <span>+7 (989) 214-65-06</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Icon name="Mail" size={16} />
