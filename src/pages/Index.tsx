@@ -60,8 +60,9 @@ const Index = () => {
         </div>
 
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            CineMax
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <span className="cinema-name-matvey">Матвей</span>{" "}
+            <span className="cinema-name-premiere">Premiere</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200">
             Погрузитесь в мир кино с максимальным комфортом

@@ -102,3 +102,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .cinema-name-matvey {
+    color: rgb(220 38 38); /* #DC2626 - crimson */
+  }
+
+  .cinema-name-premiere {
+    color: rgb(251 191 36); /* #FBBF24 - gold */
+  }
+}

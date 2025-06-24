@@ -8,7 +8,10 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <Icon name="Film" size={28} className="text-accent" />
-              <span className="text-xl font-bold text-primary">CineMax</span>
+              <span className="text-xl font-bold">
+                <span className="cinema-name-matvey">Матвей</span>{" "}
+                <span className="cinema-name-premiere">Premiere</span>
+              </span>
             </div>
             <p className="text-muted-foreground mb-4">
               Современный кинотеатр с лучшими фильмами и комфортными залами.
@@ -71,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 mt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 CineMax. Все права защищены.</p>
+          <p>&copy; 2024 Матвей Premiere. Все права защищены.</p>
         </div>
       </div>
     </footer>

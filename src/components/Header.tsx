@@ -18,7 +18,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Icon name="Film" size={32} className="text-accent" />
-            <span className="text-2xl font-bold text-primary">CineMax</span>
+            <span className="text-2xl font-bold">
+              <span className="cinema-name-matvey">Матвей</span>{" "}
+              <span className="cinema-name-premiere">Premiere</span>
+            </span>
           </Link>
 
           <nav className="hidden md:flex space-x-8">
